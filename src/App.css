@@ -1,0 +1,22 @@
+#about {
+  margin-top: -80px;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+#projects,
+#contact {
+  color: #3b3b3c;
+  background: #eaf2fa;
+}
+
+section {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  font-size: 16px;
+  font-weight: bold;
+}

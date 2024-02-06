@@ -1,0 +1,12 @@
+.workExperienceContainer {
+  width: 90%;
+  background-color: #f8f8f8;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+  padding: 10px;
+  background: #eaf2fa;
+}
+
+.cardsDiv {
+  display: flex;
+}

@@ -1,0 +1,13 @@
+.resumeContainer {
+  width: 90%;
+  margin-top: 20px;
+  background: #eafaeb;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  justify-content: center;
+}
+
+iframe {
+  width: 70%;
+  height: 100vh;
+  padding: 20px 20px;
+}
