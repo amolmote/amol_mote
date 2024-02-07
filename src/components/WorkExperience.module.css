@@ -9,4 +9,18 @@
 
 .cardsDiv {
   display: flex;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 767px) {
+  .workExperienceContainer {
+    margin-bottom: 10px;
+    width: 100%;
+    margin-top: -112px;
+  }
+
+  .cardsDiv {
+    display: flex;
+    flex-direction: column;
+  }
 }

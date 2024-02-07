@@ -40,3 +40,36 @@ li {
 .iconContainer {
   margin-left: 256px;
 }
+
+@media screen and (max-width: 460px) {
+  .outerContainerDesign {
+    margin-top: -42px;
+    width: 100%;
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .imageContainer {
+    width: 100%;
+    padding: 20px;
+  }
+  .aboutMeText {
+    width: 100%;
+    padding: 20px;
+    margin-top: -6px;
+  }
+
+  .titleStyle {
+    font-size: 1.2rem;
+  }
+
+  ul {
+    flex-direction: flex;
+  }
+
+  img {
+    width: 90%;
+    height: auto;
+    display: block;
+  }
+}

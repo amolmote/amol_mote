@@ -6,8 +6,15 @@
   justify-content: center;
 }
 
-iframe {
+embed {
   width: 70%;
   height: 100vh;
   padding: 20px 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .resumeContainer {
+    width: 100%;
+    margin-top: 0px;
+  }
 }

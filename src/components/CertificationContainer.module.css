@@ -11,3 +11,14 @@
   justify-content: space-around;
   flex-wrap: wrap;
 }
+
+@media screen and (max-width: 767px) {
+  .certContainer {
+    margin-top: 300px;
+    width: 100%;
+  }
+  .cardsDiv {
+    display: flex;
+    flex-direction: column;
+  }
+}
