@@ -1,11 +1,12 @@
 import styles from "./Resume.module.css";
+import pdf from "/Amol Mote Resume.pdf";
 
 const Resume = () => {
   return (
     <div className={styles.resumeContainer}>
       <h2 style={{ textAlign: "center" }}>RESUME</h2>
       <div style={{ textAlign: "center" }}>
-        <iframe src="/Amol Mote Resume.pdf"></iframe>
+        <iframe src={pdf}></iframe>
       </div>
     </div>
   );
