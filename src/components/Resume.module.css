@@ -15,6 +15,6 @@ embed {
 @media screen and (max-width: 767px) {
   .resumeContainer {
     width: 100%;
-    margin-top: 0px;
+    margin-top: 300px;
   }
 }
