@@ -18,13 +18,13 @@ const JobRoleContextProvider = ({ children }) => {
       summaryAboutRole:
         "In my role as a Software Engineer 1B, I undertook the responsibility of a Java Spring-based project, working independently as the sole contributor. My tasks involve the seamless handover and maintenance of the project, including updating vulnerable versions and implementing necessary code fixes. I manage the entire development cycle, from making changes to testing in the UAT environment and finally releasing the updates to the production environment. This role demands a comprehensive and end-to-end approach to ensure the project's integrity and functionality.",
     },
-    {
-      designation: "Officer; Software Engineer 1B",
-      dateFrom: "Jan 2024",
-      dateTill: "Present",
-      summaryAboutRole:
-        "Recognizing my increased responsibilities in maintaining a critical Java Spring-based application. As the sole contributor to the project, I have taken charge of overseeing the entire development cycle. This includes addressing production issues, updating vulnerable versions, and implementing necessary code fixes. My comprehensive approach involves making changes, rigorous testing in the UAT environment, and releasing updates to the production environment. This designation shift reflects the pivotal role I play in ensuring the reliability and functionality of the application.",
-    },
+    // {
+    //   designation: "Officer; Software Engineer 1B",
+    //   dateFrom: "Jan 2024",
+    //   dateTill: "Present",
+    //   summaryAboutRole:
+    //     "Recognizing my increased responsibilities in maintaining a critical Java Spring-based application. As the sole contributor to the project, I have taken charge of overseeing the entire development cycle. This includes addressing production issues, updating vulnerable versions, and implementing necessary code fixes. My comprehensive approach involves making changes, rigorous testing in the UAT environment, and releasing updates to the production environment. This designation shift reflects the pivotal role I play in ensuring the reliability and functionality of the application.",
+    // },
   ];
 
   const certificates = [

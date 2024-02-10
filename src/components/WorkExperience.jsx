@@ -8,7 +8,9 @@ const WorkExperience = () => {
 
   return (
     <div className={styles.workExperienceContainer}>
-      <h2 style={{ textAlign: "center" }}>BANK OF AMERICA</h2>
+      <h2 style={{ textAlign: "center", marginTop: "46px" }}>
+        BANK OF AMERICA
+      </h2>
       <div className={styles.cardsDiv}>
         {jobRoles.map((role) => (
           <JobRoleCards key={role.designation} role={role} />

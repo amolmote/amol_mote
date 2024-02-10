@@ -12,13 +12,15 @@
   flex-wrap: wrap;
 }
 
-@media screen and (max-width: 767px) {
+@media only screen and (max-width: 767px) {
   .certContainer {
-    margin-top: 860px;
-    width: 100%;
+    width: 100%; /* Make the container take up the full width of the screen */
+    margin: 10px 0; /* Adjust margin for better spacing */
+    box-shadow: none; /* Remove box-shadow for simplicity on small screens */
   }
+
   .cardsDiv {
-    display: flex;
-    flex-direction: column;
+    flex-direction: column; /* Stack cards vertically on small screens */
+    align-items: center; /* Center-align cards */
   }
 }

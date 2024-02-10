@@ -15,3 +15,11 @@ p {
 .card:hover {
   transform: scale(1.05);
 }
+
+@media only screen and (max-width: 767px) {
+  .card {
+    width: 100%; /* Make the card take up the full width of the screen */
+    margin: 10px 0; /* Adjust margin for better spacing */
+    box-shadow: none; /* Remove box-shadow for simplicity on small screens */
+  }
+}
